@@ -237,13 +237,7 @@ define([
                 notify(serviceName + ' service run successfully','success');
 		//var  reg=new  RegExp("[;]", "g");
 		//var tmp=data.split(reg);
-		var tmp0;
-		try {
-			tmp0=JSON.parse(data);
-		} catch (e) {
-			console.error(e);
-			console.log(data);
-		}
+		var tmp0=JSON.parse(data);
 		var tmp=tmp0.coordinates;
 		var idxs=new Array();
 		var values= new Array();
