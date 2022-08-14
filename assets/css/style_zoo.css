@@ -263,3 +263,7 @@ color:#00a099 !important;
 .ui-icon span {
     margin-left: 20px
 }
+
+.m-0 {
+  margin: 0 !important;
+}

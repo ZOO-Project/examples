@@ -198,22 +198,52 @@ define([
 	addInteraction();
     };
 
+	function processUploadTool(event){
+		const input = event.target;
+		const reader = new FileReader();
+		reader.onload = function () {
+			try {
+				const geoJsonData = reader.result;
+				simpleProcessing(geoJsonData);
+			} catch (e) {
+				alert(e.toString());
+			}
+		};
+
+		if (input.files[0])
+			reader.readAsBinaryString(input.files[0]);
+	}
+
     var win;
 
     function simpleProcessing(geomString) {
-	notify('Running GdalExtractProfile service','info');
+	switch ($('input[name="service"]:checked').val()) {
+		case 'C':
+			serviceName = 'GdalExtractProfile';
+			break;
+		case 'node':
+			serviceName = 'linestringDem';
+			break;
+	}
+	notify('Running ' + serviceName + ' service','info');
 	zoo.execute({
-	    identifier: "GdalExtractProfile",
+	    identifier: serviceName,
             dataInputs: [{"identifier":"Geometry","value":geomString,"mimeType":"application/json"},
 			 {"identifier":"RasterFile","value":"topofr.tif","dataType":"string"}],
             dataOutputs: [{"identifier":"Profile","type":"raw"}],
             type: 'POST',
             storeExecuteResponse: false,
             success: function(data) {
-                notify('GdalExtractProfile service run successfully','success');
+                notify(serviceName + ' service run successfully','success');
 		//var  reg=new  RegExp("[;]", "g");
 		//var tmp=data.split(reg);
-		var tmp0=JSON.parse(data);
+		var tmp0;
+		try {
+			tmp0=JSON.parse(data);
+		} catch (e) {
+			console.error(e);
+			console.log(data);
+		}
 		var tmp=tmp0.coordinates;
 		var idxs=new Array();
 		var values= new Array();
@@ -356,7 +386,8 @@ values,points){
     return {
         initialize: initialize,
         activateDrawTool: activateDrawTool,
-        deactivateDrawTool: deactivateDrawTool
+        deactivateDrawTool: deactivateDrawTool,
+		processUploadTool: processUploadTool
     };
 
 
