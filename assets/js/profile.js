@@ -111,6 +111,7 @@ require(['domReady', 'app'], function(domReady, app) {
     window.cgalProcessing=app.cgalProcessing;
     window.activateDrawTool=app.activateDrawTool;
     window.deactivateDrawTool=app.deactivateDrawTool;
+    window.processUploadTool=app.processUploadTool;
     window.app=app;
 });
 

@@ -43,6 +43,20 @@
 		data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 		><i class="fa fa-pencil"></i> <span>Draw line</span></a>
 		</li>
+    <li class="navbar-btn">
+        <label class="btn btn-default btn-sml multi-process process navbar-default">
+          <input id="geojson-upload" type="file" accept=".json,.geojson" onchange="processUploadTool(event);" style="display: none;">
+          <i class="fa fa-file navbar-link"></i> <span class="navbar-link">Upload file</span>
+        </label>
+    </li>
+      <li class="navbar-btn">
+        <div class="btn btn-default btn-sml multi-process process navbar-default">
+          <input type="radio" id="service-C" name="service" value="C" class="m-0" checked>
+          <label class="navbar-link m-0" for="service-c">C</label>
+          <input type="radio" id="service-node" name="service" value="node" class="m-0">
+          <label class="navbar-link m-0" for="service-node">Node.js</label>
+        </div>
+      </li>
 	    </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
@@ -84,6 +98,10 @@
                   </p>
                   <p>
 		  Draw a line within the image bounds and double-click to compute the corresponding elevation profile. </p>
+                  <p>
+                    Alternatively, upload a <code>LINESTRING</code> in GeoJSON format. </p>
+                  <p>
+                  <p>You can also select between the C and the Node.js implementation. </p>
                   <p>
 		  Please see <a href="./assets/js/profile.js" >profile.js</a> and <a href="./assets/js/profile-app.js" >profile-app.js</a> to see how this is done.
                   </p>
