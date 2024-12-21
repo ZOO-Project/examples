@@ -316,7 +316,7 @@ define([
           applyMargins();
         });
 
-	var main_url="http://zoo-project.org:8080/geoserver/ows";
+	var main_url="https://zoo-project.org:8082/geoserver/ows";
 	var proxy="http://zoo-project.org/cgi-bin/proxy.cgi?url="
 	var typename="topp:states";
 
@@ -447,7 +447,7 @@ define([
 	    var url = wmsSource.getGetFeatureInfoUrl(evt.coordinate,
 					view.getResolution(), view.getProjection(),
 					{'INFO_FORMAT': 'application/json'/*'INFO_FORMAT': 'application/vnd.ogc.gml'*/});
-	    requestUrl=proxy+encodeURIComponent(url);
+	    requestUrl=proxy+encodeURIComponent(url.replace("https","http").replace("8082","8080"));
 	    console.log(requestUrl);
 	    $.ajax(requestUrl).then(function(response) {
 		if(highlightOverlay.getSource().getFeatures().length>0)
