@@ -635,7 +635,7 @@ margin:0;
 }
 
 .bird{
-    background:url(http://zoo-project.org/img/zoo-bird.png) no-repeat;
+    background:url(http://zoo-project.org/images/zoo-bird.png) no-repeat;
     position:absolute;
     left:50%;
     margin:0 0 0 -100px;
@@ -650,7 +650,7 @@ margin:0;
 
 
 .bird:hover{
-	background: orange url(http://zoo-project.org/img/zoo-bird-h.png) no-repeat;
+	background: orange url(http://zoo-project.org/images/zoo-bird-h.png) no-repeat;
 	position:absolute;
 	left:50%;
 	margin:0 0 0 -100px;
@@ -686,7 +686,7 @@ margin:0;
 @media screen and (max-width: 640px) {
 
 	.bird{
-	background:url(http://zoo-project.org/img/zoo-bird-s.png) no-repeat;
+	background:url(http://zoo-project.org/images/zoo-bird-s.png) no-repeat;
 	position:absolute;
 
 	left:50%;
@@ -698,7 +698,7 @@ margin:0;
     transition: all 0.5s;
 }
 .bird:hover{
-		background: orange url(http://zoo-project.org/img/zoo-bird-s-h.png) no-repeat;
+		background: orange url(http://zoo-project.org/images/zoo-bird-s-h.png) no-repeat;
 	position:absolute;
 	left:50%;
 	margin:0 0 0 -100px;
@@ -878,13 +878,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .capecloud{
 height:270px;
-background:url(http://zoo-project.org/img/zoo-capeclouds.png);
+background:url(http://zoo-project.org/images/zoo-capeclouds.png);
 width:100%;
 }
 .capetown{
 width:100%;
 min-height:200px;
-background:url(http://zoo-project.org/img/zoo-capetown.png);
+background:url(http://zoo-project.org/images/zoo-capetown.png);
 background-size:100% 85%;
 background-position:0 153%;
 background-repeat:no-repeat;
@@ -1026,7 +1026,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 	position:absolute;
 	top:20px;
 	left:20px;
-	    background:url(http://zoo-project.org/img/bckw.png);
+	    background:url(http://zoo-project.org/images/bckw.png);
     padding:10px;
     height:200px;
     width:50px;
@@ -1378,51 +1378,51 @@ padding:0;
 }
 
 .ch-info-wrap-1{
-		background: #FEFDEB url(http://zoo-project.org/img/zoo-cheetah.png) no-repeat;
+		background: #FEFDEB url(http://zoo-project.org/images/zoo-cheetah.png) no-repeat;
 background-size:cover;
 }
 		
 .ch-img-1 .ch-info-back
 {
 
-background: #fdb042 url(http://zoo-project.org/img/zoo-cheetah-h.png) no-repeat;
+background: #fdb042 url(http://zoo-project.org/images/zoo-cheetah-h.png) no-repeat;
 background-size:cover;
 }
 
 
 .ch-info-wrap-2{
-		background: #FEFDEB url(http://zoo-project.org/img/zoo-pinguin.png) no-repeat;
+		background: #FEFDEB url(http://zoo-project.org/images/zoo-pinguin.png) no-repeat;
 background-size:cover;
 }
 		
 .ch-img-2 .ch-info-back
 {
 
-background: #fdb042 url(http://zoo-project.org/img/zoo-pinguin-h.png) no-repeat;
+background: #fdb042 url(http://zoo-project.org/images/zoo-pinguin-h.png) no-repeat;
 background-size:cover;
 }
 
 
 .ch-info-wrap-3{
-background: #FEFDEB url(http://zoo-project.org/img/zoo-monkey.png) no-repeat;
+background: #FEFDEB url(http://zoo-project.org/images/zoo-monkey.png) no-repeat;
 background-size:cover;
 }
 		
 .ch-img-3 .ch-info-back
 {
 
-background: #fdb042 url(http://zoo-project.org/img/zoo-monkey-h.png) no-repeat;
+background: #fdb042 url(http://zoo-project.org/images/zoo-monkey-h.png) no-repeat;
 background-size:cover;}
 
 .ch-info-wrap-4{
-background: #FEFDEB url(http://zoo-project.org/img/zoo-yak.png) no-repeat;
+background: #FEFDEB url(http://zoo-project.org/images/zoo-yak.png) no-repeat;
 background-size:cover;
 }
 
 .ch-img-4 .ch-info-back
 {
 
-background: #fdb042 url(http://zoo-project.org/img/zoo-yak-h.png) no-repeat;
+background: #fdb042 url(http://zoo-project.org/images/zoo-yak-h.png) no-repeat;
 background-size:cover;}
 
 
@@ -1741,7 +1741,7 @@ box-shadow: 0 1px 2px rgba(141,128,87,0.6);
 }
 
 .ch-info-wrap-pm{
-	background: transparent url(http://zoo-project.org/img/pm-sextant.png) no-repeat;
+	background: transparent url(http://zoo-project.org/images/pm-sextant.png) no-repeat;
 	background-size:cover;
 	box-shadow: 
 	0 0 0 10px rgba(156,137,113,1), 
@@ -1750,7 +1750,7 @@ box-shadow: 0 1px 2px rgba(141,128,87,0.6);
 		
 .ch-img-pm .ch-info-back
 {
-	background: #10655f url(http://zoo-project.org/img/pm-sextant-h.png) no-repeat;
+	background: #10655f url(http://zoo-project.org/images/pm-sextant-h.png) no-repeat;
 	background-size:cover;
 }
 
@@ -1809,14 +1809,14 @@ padding:0;
 .mt{position:relative;top:20px;margin-bottom:20px;max-width:70%;font-size:.85em;}
 .mt2{position:relative;top:20px;margin-bottom:20px;max-width:65%;font-size:.85em;}
 .una{margin-top:30px;display:block;width:250px;height:107px;background-size:cover;}
-.unb{margin-top:40px;background:url(http://zoo-project.org/img/ogc-logo.png) no-repeat;display:block;width:150px;height:52px;background-size:cover;}
-.unb:hover{background:url(http://zoo-project.org/img/ogc-logo-h.png) no-repeat;background-size:cover;}
-.unc{margin-top:10px;background:url(http://zoo-project.org/img/foss4g2016-logo-s.png) no-repeat;background-size:cover;display:block;width:320px;height:137px;}
-.unc:hover{background:url(http://zoo-project.org/img/foss4g2016-logo-s-h.png) no-repeat;background-size:cover;display:block;width:320px;height:137px;}
-.unce{margin-top:30px;background:url(http://zoo-project.org/img/foss4g15e-logo.png) no-repeat;background-size:cover;display:block;width:150px;height:150px;}
-.unce:hover{background:url(http://zoo-project.org/img/foss4g15e-logo-h.png) no-repeat;background-size:cover;display:block;width:150px;height:150px;}
-.ung{margin-top:30px;background:url(http://zoo-project.org/img/geolabs-logo.png) no-repeat;background-size:cover;display:block;width:280px;height:84px;}
-.ung:hover{background:url(http://zoo-project.org/img/geolabs-logo-h.png) no-repeat;background-size:cover;display:block;width:280px;height:84px;}
+.unb{margin-top:40px;background:url(http://zoo-project.org/images/ogc-logo.png) no-repeat;display:block;width:150px;height:52px;background-size:cover;}
+.unb:hover{background:url(http://zoo-project.org/images/ogc-logo-h.png) no-repeat;background-size:cover;}
+.unc{margin-top:10px;background:url(http://zoo-project.org/images/foss4g2016-logo-s.png) no-repeat;background-size:cover;display:block;width:320px;height:137px;}
+.unc:hover{background:url(http://zoo-project.org/images/foss4g2016-logo-s-h.png) no-repeat;background-size:cover;display:block;width:320px;height:137px;}
+.unce{margin-top:30px;background:url(http://zoo-project.org/images/foss4g15e-logo.png) no-repeat;background-size:cover;display:block;width:150px;height:150px;}
+.unce:hover{background:url(http://zoo-project.org/images/foss4g15e-logo-h.png) no-repeat;background-size:cover;display:block;width:150px;height:150px;}
+.ung{margin-top:30px;background:url(http://zoo-project.org/images/geolabs-logo.png) no-repeat;background-size:cover;display:block;width:280px;height:84px;}
+.ung:hover{background:url(http://zoo-project.org/images/geolabs-logo-h.png) no-repeat;background-size:cover;display:block;width:280px;height:84px;}
 
 @media screen and (max-width: 640px) {
 	
@@ -1850,12 +1850,12 @@ top:10px;margin:0 0 20px 0;}
 
 .mt{position:relative;top:10px;margin-bottom:10px;max-width:70%;font-size:.85em;}
 .mt2{position:relative;top:10px;margin-bottom:10px;font-size:.85em;width:75% !important;}
-.una{margin-top:10px;background:url(http://zoo-project.org/img/osgeo-logo.png) no-repeat;display:block;width:250px;height:107px;}
-.una:hover{background:url(http://zoo-project.org/img/osgeo-logo-h.png) no-repeat;}
-.unb{margin-top:20px;background:url(http://zoo-project.org/img/ogc-logo.png) no-repeat;display:block;width:150px;height:52px;}
-.unb:hover{background:url(http://zoo-project.org/img/ogc-logo-h.png) no-repeat;}
-.unc{margin-top:10px;background:url(http://zoo-project.org/img/foss4g2016-logo-s.png) no-repeat;display:block;width:160px;height:65px;background-size:cover;}
-.unc:hover{background:url(http://zoo-project.org/img/foss4g2016-logo-s.png) no-repeat;width:160px;height:65px;background-size:cover;}
+.una{margin-top:10px;background:url(http://zoo-project.org/images/osgeo-logo.png) no-repeat;display:block;width:250px;height:107px;}
+.una:hover{background:url(http://zoo-project.org/images/osgeo-logo-h.png) no-repeat;}
+.unb{margin-top:20px;background:url(http://zoo-project.org/images/ogc-logo.png) no-repeat;display:block;width:150px;height:52px;}
+.unb:hover{background:url(http://zoo-project.org/images/ogc-logo-h.png) no-repeat;}
+.unc{margin-top:10px;background:url(http://zoo-project.org/images/foss4g2016-logo-s.png) no-repeat;display:block;width:160px;height:65px;background-size:cover;}
+.unc:hover{background:url(http://zoo-project.org/images/foss4g2016-logo-s.png) no-repeat;width:160px;height:65px;background-size:cover;}
 
 }
 
