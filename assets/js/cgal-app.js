@@ -148,7 +148,7 @@ define([
     });
 }
 
-    var filename="http://zoo-project.org/zoo-demo-2015/data/stations.gml";
+    var filename="http://old-www.zoo-project.org/zoo-demo-2015/data/stations.gml";
     function cgalProcessing(aProcess) {
     notify('Running '+aProcess+' service','info');
 	zoo.execute({

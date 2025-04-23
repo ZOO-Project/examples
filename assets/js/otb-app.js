@@ -39,7 +39,7 @@ define([
     var currentLID=0;
     var mymodal = $('#myModal');
     var mynotify = $('.top-right');
-    var mapUrl = "http://zoo-project.org/cgi-bin/mapserv?map=/var/www/data/project_Untitled_0_test.map";
+    var mapUrl = "http://old-www.zoo-project.org/cgi-bin/mapserv?map=/var/www/data/project_Untitled_0_test.map";
     var map;
     //var mapUrl = "http://zoo.dev.publicamundi.eu/cgi-bin/mapserv?map=/var/www/temp/Result_0bff3f46-95ed-11e5-b425-aa0cfce33a1e.map";
     

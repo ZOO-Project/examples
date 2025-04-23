@@ -95,7 +95,7 @@ define([
 	});
 	map.addLayer(layerLS);
 	
-	var main_url="http://www.zoo-project.org/cgi-bin/mapserv?map=/var/www/demo.zoo-project.org/htdocs/mapserver/mntfr.map";
+	var main_url="http://old-www.zoo-project.org/cgi-bin/mapserv?map=/var/www/demo.zoo-project.org/htdocs/mapserver/mntfr.map";
 	var wmsSource=new ol.source.TileWMS({
 	    url: main_url,
 	    ratio: 1,

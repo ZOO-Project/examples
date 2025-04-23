@@ -316,8 +316,8 @@ define([
           applyMargins();
         });
 
-	var main_url="https://zoo-project.org:8082/geoserver/ows";
-	var proxy="http://zoo-project.org/cgi-bin/proxy.cgi?url="
+	var main_url="https://old-www.zoo-project.org:8082/geoserver/ows";
+	var proxy="http://old-www.zoo-project.org/cgi-bin/proxy.cgi?url="
 	var typename="topp:states";
 
 	var wmsSource=new ol.source.ImageWMS({

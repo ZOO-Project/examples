@@ -43,9 +43,9 @@ define([
     var lines    = "";
     var polygons = "sf:restricted";
     var raster = "sf:sfdem";
-    var mapUrl = "https://zoo-project.org:8082/geoserver/wms";
-    var mapWFSUrl = "https://zoo-project.org:8082/geoserver/wfs";
-    var mapWCSUrl = "https://zoo-project.org:8082/geoserver/wcs";
+    var mapUrl = "https://old-www.zoo-project.org:8082/geoserver/wms";
+    var mapWFSUrl = "https://old-www.zoo-project.org:8082/geoserver/wfs";
+    var mapWCSUrl = "https://old-www.zoo-project.org:8082/geoserver/wcs";
     var map;
     var styles=[];
     var basicLayers=[];
